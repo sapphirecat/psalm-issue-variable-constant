@@ -1,0 +1,21 @@
+{
+    "name": "weirdan/variable-constant",
+    "require-dev": {
+        "vimeo/psalm": "^3.8"
+    },
+    "authors": [
+        {
+            "name": "Bruce Weirdan",
+            "email": "weirdan@gmail.com"
+        }
+    ],
+    "require": {},
+    "scripts": {
+        "psalm": "psalm"
+    },
+    "autoload": {
+        "psr-4": {
+            "Weirdan\\T\\": "src"
+        }
+    }
+}
